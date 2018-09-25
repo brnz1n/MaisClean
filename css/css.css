@@ -12,7 +12,7 @@ footer{
 .logo img{
 	position: absolute; 
 	margin-left: 30px; 
-	top: 20px; 
+	margin-top: 20px; 
 	max-height: 250px;
 	max-width: 250px;
 	z-index: 1;
@@ -20,13 +20,13 @@ footer{
 .textoCabecario img{
 	position: absolute; 
 	margin-left: 20%; 
-	top: 30px; 
+	margin-top: 40px; 
 	z-index: 1;
 }
 .cabecario img{
 	height: 300px; 
 	width: 100%;
-	margin-top: 70px;
+	margin-top: 30px;
 }
 .numeros{
 	margin-left: 0px;
@@ -85,6 +85,159 @@ footer{
 		max-height: 50px;
 		max-width: 50px;
 		margin-top: -320px;
+		margin-left: 30px;
+	}
+	.imgContatoEmail img{
+		max-height: 40px;
+		max-width: 40px;
+		margin-top: -260px;
+		margin-left: 60px;
+	}
+	.imgMaps img{
+		max-width: 300px;
+		max-height: 384px;
+	}
+	.numeros{
+		margin-left: 0%;
+		margin-left: 0px;
+	}
+	.email h5{
+		font-size: 18px;
+	}
+}
+@media (max-width: 993px) {
+	.logo img{
+		max-height: 200px;
+		max-width: auto;
+		margin-top: 10px;
+	}
+	div.centralizarImg {
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 16em;
+	}
+	.cabecario img{
+		height: 250px;
+		width: 0px;
+	}
+	.textoCabecario img{
+		max-height: 300px;
+		max-width: 300px;
+		margin-top: 200px;
+		margin-left: -20px;
+	}
+	.imgContatoWhatsapp img{
+		max-height: 0px;
+		max-width: 0px;
+		margin-top: -320px;
+		margin-left: 40px;
+	}
+	.imgContatoFixo img{
+		max-height: 0px;
+		max-width: 0px;
+		margin-top: -320px;
+		margin-left: 30px;
+	}
+	.imgContatoEmail img{
+		max-height: 0px;
+		max-width: 0px;
+		margin-top: -260px;
+		margin-left: 60px;
+	}
+	.imgMaps img{
+		max-width: 300px;
+		max-height: 384px;
+	}
+	.numeros{
+		margin-left: 0%;
+		margin-left: 0px;
+	}
+	.email h5{
+		font-size: 18px;
+	}
+}
+@media (max-width: 570px) {
+	.logo img{
+		max-height: 200px;
+		max-width: auto;
+		margin-top: 10px;
+	}
+	div.centralizarImg {
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 16em;
+	}
+	.cabecario img{
+		height: 250px;
+		width: 0px;
+	}
+	.textoCabecario img{
+		max-height: 300px;
+		max-width: 300px;
+		margin-top: 200px;
+		margin-left: -20px;
+	}
+	.imgContatoWhatsapp img{
+		max-height: 40px;
+		max-width: 40px;
+		margin-top: -330px;
+		margin-left: 40px;
+	}
+	.imgContatoFixo img{
+		max-height: 40px;
+		max-width: 40px;
+		margin-top: -330px;
+		margin-left: 30px;
+	}
+	.imgContatoEmail img{
+		max-height: 40px;
+		max-width: 40px;
+		margin-top: -260px;
+		margin-left: 60px;
+	}
+	.imgMaps img{
+		max-width: 300px;
+		max-height: 384px;
+	}
+	.numeros{
+		margin-left: 0%;
+		margin-left: 0px;
+	}
+	.email h5{
+		font-size: 18px;
+	}
+}
+@media (max-width: 400px) {
+	.logo img{
+		max-height: 200px;
+		max-width: auto;
+		margin-top: 10px;
+	}
+	div.centralizarImg {
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 16em;
+	}
+	.cabecario img{
+		height: 250px;
+		width: 0px;
+	}
+	.textoCabecario img{
+		max-height: 300px;
+		max-width: 300px;
+		margin-top: 200px;
+		margin-left: -20px;
+	}
+	.imgContatoWhatsapp img{
+		max-height: 40px;
+		max-width: 40px;
+		margin-top: -330px;
+		margin-left: 40px;
+	}
+	.imgContatoFixo img{
+		max-height: 40px;
+		max-width: 40px;
+		margin-top: -330px;
 		margin-left: 30px;
 	}
 	.imgContatoEmail img{
