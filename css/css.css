@@ -18,10 +18,9 @@ footer{
 	z-index: 1;
 }
 .textoCabecario img{
-	position: absolute; 
-	margin-left: 20%; 
-	margin-top: 40px; 
-	z-index: 1;
+	position: absolute;
+	margin-left: 24%; 
+	
 }
 .cabecario img{
 	height: 300px; 
@@ -38,6 +37,7 @@ footer{
 	margin-top: -180px;
 	margin-left: 20px;
 }
+
 .imgContatoFixo img{
 	max-height: 120px;
 	max-width: 120px;
@@ -47,10 +47,10 @@ footer{
 .imgContatoEmail img{
 	max-height: 120px;
 	max-width: 120px;
-	margin-top: -130px;
+	margin-top: -150px;
 	margin-left: 30px;
 }
-.imgMaps img{
+.imgMaps iframe{
 	max-width: auto;
 	max-height: auto;
 }
@@ -76,24 +76,30 @@ footer{
 		margin-left: -20px;
 	}
 	.imgContatoWhatsapp img{
-		max-height: 50px;
-		max-width: 50px;
+		max-height: 0px;
+		max-width: 0px;
+		margin-top: -320px;
+		margin-left: 40px;
+	}
+	.imgContatoWhatsappV img{
+		max-height: 0px;
+		max-width: 0px;
 		margin-top: -320px;
 		margin-left: 40px;
 	}
 	.imgContatoFixo img{
-		max-height: 50px;
-		max-width: 50px;
+		max-height:00px;
+		max-width: 0px;
 		margin-top: -320px;
 		margin-left: 30px;
 	}
 	.imgContatoEmail img{
-		max-height: 40px;
-		max-width: 40px;
+		max-height: 0px;
+		max-width: 0px;
 		margin-top: -260px;
 		margin-left: 60px;
 	}
-	.imgMaps img{
+	.imgMaps iframe{
 		max-width: 300px;
 		max-height: 384px;
 	}
@@ -132,6 +138,12 @@ footer{
 		margin-top: -320px;
 		margin-left: 40px;
 	}
+	.imgContatoWhatsappV img{
+		max-height: 0px;
+		max-width: 0px;
+		margin-top: -320px;
+		margin-left: 40px;
+	}
 	.imgContatoFixo img{
 		max-height: 0px;
 		max-width: 0px;
@@ -144,7 +156,7 @@ footer{
 		margin-top: -260px;
 		margin-left: 60px;
 	}
-	.imgMaps img{
+	.imgMaps iframe{
 		max-width: 300px;
 		max-height: 384px;
 	}
@@ -178,24 +190,30 @@ footer{
 		margin-left: -20px;
 	}
 	.imgContatoWhatsapp img{
-		max-height: 40px;
-		max-width: 40px;
+		max-height: 0px;
+		max-width: 0px;
+		margin-top: -330px;
+		margin-left: 40px;
+	}
+	.imgContatoWhatsappV img{
+		max-height: 0px;
+		max-width: 0px;
 		margin-top: -330px;
 		margin-left: 40px;
 	}
 	.imgContatoFixo img{
-		max-height: 40px;
-		max-width: 40px;
+		max-height: 0px;
+		max-width: 0px;
 		margin-top: -330px;
 		margin-left: 30px;
 	}
 	.imgContatoEmail img{
-		max-height: 40px;
-		max-width: 40px;
+		max-height: 0px;
+		max-width: 0px;
 		margin-top: -260px;
 		margin-left: 60px;
 	}
-	.imgMaps img{
+	.imgMaps iframe{
 		max-width: 300px;
 		max-height: 384px;
 	}
@@ -229,32 +247,32 @@ footer{
 		margin-left: -20px;
 	}
 	.imgContatoWhatsapp img{
-		max-height: 40px;
-		max-width: 40px;
+		max-height: 0px;
+		max-width: 0px;
 		margin-top: -330px;
-		margin-left: 40px;
+		margin-left: 35px;
 	}
 	.imgContatoFixo img{
-		max-height: 40px;
-		max-width: 40px;
+		max-height: 0px;
+		max-width: 0px;
 		margin-top: -330px;
-		margin-left: 30px;
+		margin-left: 20px;
 	}
 	.imgContatoEmail img{
-		max-height: 40px;
-		max-width: 40px;
+		max-height: 0px;
+		max-width: 0px;
 		margin-top: -300px;
 		margin-left: 60px;
 	}
-	.imgMaps img{
-		max-width: 300px;
+	.imgMaps iframe{
+		max-width: 290px;
 		max-height: 384px;
 	}
 	.numeros{
 		margin-left: 0%;
 		margin-left: 0px;
 	}
-	.email h5{
-		font-size: 18px;
+	.email {
+		font-size: 20px;
 	}
 }
